@@ -5,7 +5,7 @@ import Topbar from "./Topbar.jsx";
 import { useCurrentWorkspace } from "../hooks/useCurrentWorkspace.js";
 import { useWorkspaceRealtime } from "../hooks/useWorkspaceRealtime.js";
 
-export default function AppLayout() {
+export default function Applayout() {
   const { current } = useCurrentWorkspace();
   useWorkspaceRealtime(current?._id);
   const [sidebarOpen, setSidebarOpen] = useState(false);

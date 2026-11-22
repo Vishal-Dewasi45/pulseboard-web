@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import ProtectedRoute from "./components/ProtectedRoutes.jsx";
-import AppLayout from "./components/Applayout.jsx";
+import Applayout from "./components/Applayout.jsx";
 import Login from "./pages/Login.jsx";
 import Register from "./pages/Register.jsx";
 import WorkspaceGate from "./pages/WorkspaceGate.jsx";
@@ -28,7 +28,7 @@ export default function App() {
       <Route path="/forgot-password" element={<ForgotPassword />} />
       <Route element={<ProtectedRoute />}>
         <Route path="/" element={<WorkspaceGate />} />
-        <Route element={<AppLayout />}>
+        <Route element={<Applayout />}>
           <Route path="/invitations" element={<Invitations />} />
           <Route path="/w/:workspaceId">
           <Route path="activity" element={<ActivityPage />} />
