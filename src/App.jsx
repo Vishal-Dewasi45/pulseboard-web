@@ -7,7 +7,7 @@ import WorkspaceGate from "./pages/WorkspaceGate.jsx";
 import Invitations from "./pages/Invitations.jsx";
 import ProjectBoard from "./pages/ProjectBoard.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
-import MyTasks from "./components/MyTasks.jsx";
+import MyTasks from "./pages/MyTasks.jsx";
 import CalendarPage from "./pages/CalendarPage.jsx";
 import ActivityPage from "./pages/ActivityPage.jsx";
 import MembersPage from "./pages/MembersPage.jsx";
