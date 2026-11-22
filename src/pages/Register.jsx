@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext.jsx";
 import { getErrorMessage } from "../lib/api.js";
-import AuthLayout from "../components/AuthLayout.jsx";
+import AuthLayout from "../components/Authlayout.jsx";
 
 export default function Register() {
   const { register, login } = useAuth();

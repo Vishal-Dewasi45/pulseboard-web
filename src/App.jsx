@@ -1,5 +1,5 @@
 import { Routes, Route, Navigate } from "react-router-dom";
-import ProtectedRoute from "./components/ProtectedRoutes.jsx"
+import ProtectedRoute from "./components/ProtectedRoutes.jsx";
 import AppLayout from "./components/Applayout.jsx";
 import Login from "./pages/Login.jsx";
 import Register from "./pages/Register.jsx";
@@ -7,7 +7,7 @@ import WorkspaceGate from "./pages/WorkspaceGate.jsx";
 import Invitations from "./pages/Invitations.jsx";
 import ProjectBoard from "./pages/ProjectBoard.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
-import MyTasks from "./pages/myTasks.jsx";
+import MyTasks from "./pages/MyTasks.jsx";
 import CalendarPage from "./pages/CalendarPage.jsx";
 import ActivityPage from "./pages/ActivityPage.jsx";
 import MembersPage from "./pages/MembersPage.jsx";
