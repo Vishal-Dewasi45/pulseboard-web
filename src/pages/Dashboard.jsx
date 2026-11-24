@@ -132,7 +132,7 @@ export default function Dashboard() {
         <p className="text-sm text-slate-500">Here's what's happening in {current?.name}.</p>
       </div>
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-1 xl:grid-cols-6">
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-6">
         <StatCard icon={ListChecks} label="Total tasks" value={overview.totalTasks} tone="bg-blue-50 text-blue-600" />
         <StatCard icon={CheckCircle2} label="Completed" value={overview.completedTasks} tone="bg-emerald-50 text-emerald-600" />
         <StatCard icon={AlertTriangle} label="Overdue" value={overview.overdueTasks} tone="bg-amber-50 text-amber-600" />
